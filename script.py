@@ -15,11 +15,6 @@ r = requests.get("https://www.coreyms.com")
 print(r.status_code)
 
 
-def a():
-    test = "abc"
-    return False
-
-
 name = input("name?")
 
 print("Hello, ", name)
